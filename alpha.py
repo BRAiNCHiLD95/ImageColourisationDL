@@ -4,7 +4,6 @@ Created on Sun Feb  4 14:30:58 2018
 
 @author: BkiD
 """
-
 from keras.preprocessing.image import  array_to_img, img_to_array, load_img
 from keras.layers import Conv2D, UpSampling2D, InputLayer, Conv2DTranspose
 from keras.layers import Activation, Dense, Dropout, Flatten
@@ -50,7 +49,7 @@ model.add(Conv2D(2, (3, 3), activation='tanh', padding='same'))
 model.compile(optimizer='rmsprop', loss='mse', metrics=['accuracy'])
 print(model.summary())
 
-model.fit(x=X, y=Y, batch_size=1, epochs=50)
+model.fit(x=X, y=Y, batch_size=1, epochs=500)
 print(model.evaluate(X,Y, batch_size=1))
 output = model.predict(X)
 output *= 128
