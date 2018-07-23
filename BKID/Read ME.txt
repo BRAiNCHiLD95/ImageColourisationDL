@@ -1,0 +1,18 @@
+How to use:
+
+network.py consists of the model structure.
+latest.h5 is the weights and biases for our last known results.
+Use train.py to train the network.
+Use evaluate.py to color images and videos.
+Argument parser is available.. So just use -h and wait to get the available options.
+
+Dependencies required:
+
+Python 3.x
+Ananconda (VirtualEnv preferred)
+TensorFlow
+NumPy
+Keras
+OpenCV
+
+The rest are already installed with Anaconda.
