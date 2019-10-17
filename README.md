@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+# Automatic Image and Video Colourisation using Deep Learning
+### This is the project repository for the research paper published in IEEE (in ICSCET 2018)
 
-You can use the [editor on GitHub](https://github.com/BRAiNCHiLD95/ImageColourisationDL/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<a href="https://ieeexplore.ieee.org/document/8537308">View Publication</a>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BRAiNCHiLD95/ImageColourisationDL/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### Abstract:
+<em>A pivotal area of research among the machine learning and computer vision communities is the Colourisation of monochrome/black and white images. Colourisation is the computer-assisted process of adding colour to a greyscale image/movie. Traditionally, this process required significant user interaction, in the form of placing numerous colour scribbles, looking at related images, and performing segmentation. However, with advancements in technology, automated Colourisation systems have been created. Apart from the aesthetic appeal, such capability has broad practical applications ranging from video restoration to image enhancement for improved comprehensibility. However, these current systems face some major challenges, such as - Colour inconsistency within individual objects, under/over-saturation, and green tones in bright environments. The main purpose here is to eliminate the issues faced by current systems, and at the same time, efficiently colourise Black & White images and videos.</em>
